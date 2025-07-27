@@ -1,0 +1,1 @@
+# Farid-AI-voice-assistant
