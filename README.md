@@ -89,24 +89,22 @@ Click Run ▶️
 The app will launch and connect using the token from LiveKit
 
 1. Set Up Virtual Environment
-bash
-Copy
-Edit
+
 cd Farid-AI-voice-assistant/farid_voice_assistant
 python -m venv venv
 .\venv\Scripts\activate  # or source venv/bin/activate (Linux/Mac)
 pip install -r requirements.txt
+
+
 2. Create a .env File
-env
-Copy
-Edit
+
 LIVEKIT_API_KEY=your_livekit_api_key
 LIVEKIT_API_SECRET=your_livekit_api_secret
 LIVEKIT_URL=wss://your-sandbox-id.sandbox.staging.livekit.io
+
+
 3. Run the Agent Console (Optional)
-bash
-Copy
-Edit
+
 python agent.py console
 🌐 Web Tools Integrated
 Tool	Usage
@@ -122,6 +120,7 @@ Use .env to securely manage credentials
 Sandbox tokens are temporary (testing only)
 
 📷 Screenshots (Optional)
+
 Include emulator screenshots, UI samples, or token server flow here.
 
 🙋‍♂️ Author
